@@ -1,0 +1,204 @@
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+
+#social-fb:hover {
+    color: #3B5998;
+}
+#social-tw:hover {
+    color: #4099FF;
+}
+#social-gp:hover {
+    color: #d34836;
+}
+#social-em:hover {
+    color: #f39c12;
+}
+
+
+.para{
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+.test a {
+    color: #fff;
+    background: #99583d;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-family: fontawesome;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: 12px;
+    margin: 0 2px;
+    transition: all .5s;
+}
+.test a:hover {
+    background: #ff0000;
+}
+.test a:hover p {
+    bottom: 35px;
+    visibility: visible;
+}
+.test a p {
+    color: #666;
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+    right: -25px;
+    padding: 5px 7px;
+    z-index: -1;
+    font-size: 14px;
+    border-radius: 2px;
+    background: #fff;
+    visibility: hidden;
+    transition: all 0.5s cubic-bezier(0.6, -0.6, 0.2, 1.5);
+}
+.test a p:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 40px;
+}
+footer a:nth-of-type(1):before {
+    content: '\f09a';
+}
+footer a:nth-of-type(2):before {
+    content: '\f099';
+}
+footer a:nth-of-type(3):before {
+    content: '\f0d5';
+}
+footer a:nth-of-type(4):before {
+    content: '\f113';
+}
+footer a:nth-of-type(5):before {
+    content: '\f17d';
+}
+footer a:nth-of-type(6):before {
+    content: '\f1cb';
+}
+
+.footer-flex{
+    margin-top: 8px;
+}
+footer{
+    margin-top: 20px;
+    background: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.bg-img{
+
+    /* The image used */
+    background-image: url("img/bdimg.png");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -20px;
+}
+
+.office-margin{
+    margin-bottom: 56px;
+}
+
+.Job-text{
+    margin-top: 175px;
+    font-size: 46px;
+    background: #ffffff80;
+}
+.office-bd{
+    background-image: url("img/office.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -20px;
+}
+
+.well{
+    margin-top: 20px;
+}
+
+
+.contact_us{
+    background: url("../Img/maps.jpg") no-repeat center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    -o-background: cover;
+    background: cover;
+    min-height: 300px;
+    color: #FFF;
+    font-family: sans-serif;
+
+}
+.contact_us .content{
+    background-color: rgba(2,2,2,.9);
+    padding: 30px;
+}
+.contact_us .content h4{
+    margin-bottom: 30px;
+}
+.contact_us .content .form-control {
+    background-color: rgba(82,78,78,.07);
+    color: #FFF;
+    border: none;
+
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.contact_us .content .form-control.active{
+    -webkit-transform: scale(1.1, 1.1);
+    -moztransform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+.contact_us .content textarea{
+    height: 108px;
+    outline:none;
+}
+.contact_us .content .btn-danger {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
